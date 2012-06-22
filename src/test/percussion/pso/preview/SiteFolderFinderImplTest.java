@@ -95,7 +95,6 @@ public class SiteFolderFinderImplTest
    /**
     * Test method for {@link com.percussion.pso.preview.SiteFolderFinderImpl#findSiteFolderLocations(java.lang.String, java.lang.String, java.lang.String)}.
     */
-   @SuppressWarnings("unchecked")
    @Test
    public final void testFindSiteFolderLocationsWithFolderId()
    {
@@ -156,7 +155,6 @@ public class SiteFolderFinderImplTest
       
    }
    
-   @SuppressWarnings("unchecked")
    @Test
    public final void testFindSiteFolderLocationsNoFolderId()
    {

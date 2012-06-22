@@ -62,10 +62,10 @@ public class PSOAction implements Comparable<PSOAction>
       return super.equals(obj);
    }
 
-   @SuppressWarnings("unchecked")
-   public Element toXml(Document doc)
+   @SuppressWarnings("unused")
+public Element toXml(Document doc)
    {
-      Element root = doc.createElement("Action");
+	   Element root = doc.createElement("Action");
       if(doc == null)
          throw new IllegalArgumentException("doc may not be null.");
 
@@ -84,7 +84,7 @@ public class PSOAction implements Comparable<PSOAction>
      if ( properties != null && (!properties.isEmpty()))
      {
          Element props = PSXmlDocumentBuilder.addEmptyElement(doc, root, "Props");
-         Iterator propitr = properties.keySet().iterator(); 
+         Iterator<?> propitr = properties.keySet().iterator(); 
          while(propitr.hasNext())
          {
             String key = (String)propitr.next(); 

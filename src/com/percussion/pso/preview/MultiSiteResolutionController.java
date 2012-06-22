@@ -74,7 +74,7 @@ public class MultiSiteResolutionController extends ParameterizableViewController
     * @see org.springframework.web.servlet.mvc.AbstractController#handleRequestInternal(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
     */
    @Override
-   @SuppressWarnings("unchecked")
+   @SuppressWarnings({ "unchecked", "rawtypes" })
    protected ModelAndView handleRequestInternal(HttpServletRequest request,
          HttpServletResponse response) throws Exception
    {
