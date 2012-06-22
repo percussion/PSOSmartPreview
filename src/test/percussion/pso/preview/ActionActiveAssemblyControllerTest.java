@@ -71,7 +71,8 @@ public class ActionActiveAssemblyControllerTest
       cut.setTestCommunityVisibility(false); 
       
    }
-   @Test
+   @SuppressWarnings("serial")
+@Test
    public final void testFindVisibleTemplates()
    {
       final IPSSite site = context.mock(IPSSite.class);
