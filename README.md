@@ -1,10 +1,9 @@
-PSOSmartPreview
-===============
+#PSOSmartPreview
+---
+## Requirements
+**Percussion CM System** 6.7, 7.0.3, and 7.1 -or- **Rhythmyx** 6.5.2 or newer
 
-This is the PSO Smart Preview Project for Rhythmyx 6.x  
-
-THIS VERSION REQUIRES RHYTHMYX 6.5.2 OR LATER 
-
+## Installation
 
 To deploy the toolkit, unzip the distribution into an empty directory. 
 
