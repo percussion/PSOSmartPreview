@@ -1,5 +1,7 @@
 #PSOSmartPreview
 ---
+[Percussion Software](http://www.percussion.com "Percussion Software")
+
 ## Requirements
 **Percussion CM System** 6.7, 7.0.3, and 7.1 -or- **Rhythmyx** 6.5.2 or newer
 
