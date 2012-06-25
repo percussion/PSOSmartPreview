@@ -48,7 +48,7 @@ public class SimpleXmlView extends AbstractView implements View
     * @see org.springframework.web.servlet.view.AbstractView#renderMergedOutputModel(java.util.Map, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
     */
    @Override
-   @SuppressWarnings("unchecked")
+   @SuppressWarnings({ "rawtypes" })
    protected void renderMergedOutputModel(Map model, HttpServletRequest request,
          HttpServletResponse response) throws Exception
    {
@@ -67,7 +67,7 @@ public class SimpleXmlView extends AbstractView implements View
     * @param model
     * @return the result document.
     */
-   @SuppressWarnings("unchecked")
+   @SuppressWarnings({ "rawtypes" })
    protected Document findResult(Map model)
    {
       String emsg; 

@@ -36,6 +36,7 @@ public class ConfigurableSiteLoaderImplTest {
 	 
 	IPSSiteManager siteMgr; 
 	   
+	@SuppressWarnings("static-access")
 	@Before
 	public void setUp() throws Exception {
 		context = new Mockery(); 
@@ -44,6 +45,7 @@ public class ConfigurableSiteLoaderImplTest {
 		cut.setSiteMgr(siteMgr); 
 	}
 
+	@SuppressWarnings("serial")
 	@Test
 	public void testLoadAllSites() {
 	    final IPSSite site1 = context.mock(IPSSite.class, "site1"); 
