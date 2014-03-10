@@ -6,3 +6,6 @@
 *.ear
 .classpath
 .project
+/bin
+/ivylib
+/PSO-smart-preview.zip
