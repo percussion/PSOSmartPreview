@@ -3,13 +3,13 @@
 [Percussion Software](http://www.percussion.com "Percussion Software")
 
 ## Requirements
-**Percussion CM System** 6.7, 7.0.3, 7.1, 7.3
+**Percussion CM System** 6.7, 7.0.3, 7.1, 7.3, 7.3.1
 
 ## Installation
 
-Download: 
+Please use the following link to download:
 
-http://cdn.percussion.com/downloads/open/psosmartpreview/PSO-smart-preview.zip
+http://cdn.percussion.com/downloads/open/psosmartpreview/pso-smart-preview-SNAPSHOT.zip
 
 Extract zip to an empty folder.
 
