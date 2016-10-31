@@ -7,13 +7,24 @@
 
 ## Installation
 
-Download: 
+Please use one of the following links to download: 
+
+
+Release
 
 http://cdn.percussion.com/downloads/open/psosmartpreview/PSO-smart-preview.zip
 
+Development
+
+http://cdn.percussion.com/downloads/open/psosmartpreview/pso-smart-preview-development.zip
+
+Nightly Snapshot
+
+http://cdn.percussion.com/downloads/open/psosmartpreview/pso-smart-preview-SNAPSHOT.zip
+
 Extract zip to an empty folder.
 
-You must have Java 1.5 and Apache Ant properly installed. 
+You must have Java 1.6 and Apache Ant properly intstalled. 
 
 The RHYTHMYX_HOME environment variable must point at your 
 Rhythmyx installation.  
