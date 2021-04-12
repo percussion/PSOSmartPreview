@@ -1,4 +1,4 @@
-#PSOSmartPreview
+# PSOSmartPreview - This project has been archived.  Functionality has been merged into the Percussion CMS 8.0.3 perc-toolkit
 ---
 [Percussion Software](http://www.percussion.com "Percussion Software")
 
